@@ -206,6 +206,7 @@ HBO is applied to optimize hyperparameter including hops and distance in hybrid 
 
 `ac_kind`: The kind of Acquisition function you want to choose including 'ei':0, 'poi':1, 'ucb':2.
 
+The command:
 ```shell
 cd ./src
 python main_hyBO.py --iter_num 1 --sitekind 'R' --gpu_id '1' --objective HyBO --ac_kind 0
