@@ -190,7 +190,7 @@ The result will be saved in `../exp/Result/BO` and  `json` format file records e
 
 ###   6. Hybrid Bayesian Optimization experiment (GraphMethySite+)
 
-HBO is applied to optimize hyperparameter including hops and distance in hybrid space. And you can change acquisition functions through setting different parameters in HBO.
+Hybrid Bayesian Optimization (HBO) is applied to optimize hyperparameter including hops and distance in hybrid space. And you can change acquisition functions through setting different parameters in HBO.
 
 `iter_num`:  The number of steps of random exploration you want to perform. Random exploration can help by diversifying the exploration space.
 
@@ -206,7 +206,7 @@ HBO is applied to optimize hyperparameter including hops and distance in hybrid 
 
 `ac_kind`: The kind of Acquisition function you want to choose including 'ei':0, 'poi':1, 'ucb':2.
 
-The command:
+Run the command (If you want to use acquisition function you can run the following command):
 ```shell
 cd ./src
 python main_hyBO.py --iter_num 1 --sitekind 'R' --gpu_id '1' --objective HyBO --ac_kind 0
