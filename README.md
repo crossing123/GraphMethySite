@@ -188,7 +188,7 @@ optimizer_by.maximize(
 
 The result will be saved in `../exp/Result/BO` and  `json` format file records each iteration of the process.
 
-###   6. Hybrid Bayesian Optimization experiment (GraphMethySite$^{+}$)
+###   6. Hybrid Bayesian Optimization experiment (GraphMethySite+)
 
 HBO is applied to optimize hyperparameter including hops and distance in hybrid space. And you can change acquisition functions through setting different parameters in HBO.
 
